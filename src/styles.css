@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-theme {
+  background-color: #000000;
+  /* Negro */
+  color: #ffffff;
+}
+
+body.light-theme {
+  background-color: #ff0000;
+  /* Rojo */
+  color: #000000;
+}
+
+.dark-theme * {
+  background-color: #000000 !important;
+  /* Negro */
+  color: #ffffff !important;
+}
+
+.light-theme * {
+  background-color: #ff0000 !important;
+  /* Rojo */
+  color: #000000 !important;
+}
