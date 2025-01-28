@@ -217,3 +217,32 @@ footer {
           display: inline-block;
         }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  margin-right: 20px;
+  /* Ajusta el margen según sea necesario */
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.stylo-textt{
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #4CAF50;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 2px;
+}
