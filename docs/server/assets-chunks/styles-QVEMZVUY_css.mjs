@@ -1,0 +1,2 @@
+export default `body{transition:background-color .3s,color .3s}body.dark-theme{background-color:#000;color:#fff}body.light-theme{background-color:red;color:#000}.dark-theme *{background-color:#000!important;color:#fff!important}.light-theme *{background-color:red!important;color:#000!important}
+`;
